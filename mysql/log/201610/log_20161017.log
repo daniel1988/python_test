@@ -1,0 +1,162 @@
+[2016-10-17 14:08:24]
+execute sql:
+ SELECt * FROM test_1 LIMIT 3
+[2016-10-17 14:08:33]
+execute sql:
+ SELECt * FROM test_1 LIMIT 3
+[2016-10-17 14:10:14]
+execute sql:
+ update test_1 set name='xxxx' where id=3
+[2016-10-17 14:11:02]
+execute res:0 sql:
+ update test_1 set name='xxxx' where id=3
+[2016-10-17 14:11:45]
+execute res:1 sql:
+ update test_1 set name=20161017141145 where id=3
+[2016-10-17 14:13:14]
+execute res:3 sql:
+ SELECt * FROM test_1 LIMIT 3
+[2016-10-17 14:13:14]
+execute res:1 sql:
+ update test_1 set name=20161017141314 where id=3
+[2016-10-17 14:13:49]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=9
+[2016-10-17 14:13:49]
+execute res:1 sql:
+ update test_1 set name=20161017141349 where id=9
+[2016-10-17 14:14:05]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=9
+[2016-10-17 14:14:05]
+execute res:1 sql:
+ update test_1 set name=20161017141405 where id=9
+[2016-10-17 14:14:05]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=9
+[2016-10-17 14:14:10]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=4
+[2016-10-17 14:14:10]
+execute res:1 sql:
+ update test_1 set name=20161017141410 where id=4
+[2016-10-17 14:14:10]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=4
+[2016-10-17 14:14:11]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=10
+[2016-10-17 14:14:11]
+execute res:1 sql:
+ update test_1 set name=20161017141411 where id=10
+[2016-10-17 14:14:11]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=10
+[2016-10-17 14:14:12]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=6
+[2016-10-17 14:14:12]
+execute res:1 sql:
+ update test_1 set name=20161017141412 where id=6
+[2016-10-17 14:14:12]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=6
+[2016-10-17 14:14:13]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=5
+[2016-10-17 14:14:13]
+execute res:1 sql:
+ update test_1 set name=20161017141413 where id=5
+[2016-10-17 14:14:13]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=5
+[2016-10-17 14:14:13]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=7
+[2016-10-17 14:14:14]
+execute res:1 sql:
+ update test_1 set name=20161017141413 where id=7
+[2016-10-17 14:14:14]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=7
+[2016-10-17 14:14:14]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=1
+[2016-10-17 14:14:14]
+execute res:1 sql:
+ update test_1 set name=20161017141414 where id=1
+[2016-10-17 14:14:14]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=1
+[2016-10-17 14:14:14]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=2
+[2016-10-17 14:14:15]
+execute res:1 sql:
+ update test_1 set name=20161017141414 where id=2
+[2016-10-17 14:14:15]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=2
+[2016-10-17 14:14:15]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=10
+[2016-10-17 14:14:15]
+execute res:1 sql:
+ update test_1 set name=20161017141415 where id=10
+[2016-10-17 14:14:15]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=10
+[2016-10-17 14:14:16]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=3
+[2016-10-17 14:14:16]
+execute res:1 sql:
+ update test_1 set name=20161017141416 where id=3
+[2016-10-17 14:14:16]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=3
+[2016-10-17 14:14:16]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=1
+[2016-10-17 14:14:17]
+execute res:1 sql:
+ update test_1 set name=20161017141416 where id=1
+[2016-10-17 14:14:17]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=1
+[2016-10-17 14:14:17]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=8
+[2016-10-17 14:14:17]
+execute res:1 sql:
+ update test_1 set name=20161017141417 where id=8
+[2016-10-17 14:14:17]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=8
+[2016-10-17 14:14:18]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=2
+[2016-10-17 14:14:18]
+execute res:1 sql:
+ update test_1 set name=20161017141418 where id=2
+[2016-10-17 14:14:18]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=2
+[2016-10-17 14:14:18]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=3
+[2016-10-17 14:14:18]
+execute res:1 sql:
+ update test_1 set name=20161017141418 where id=3
+[2016-10-17 14:14:18]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=3
+[2016-10-17 14:14:19]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=8
+[2016-10-17 14:14:19]
+execute res:1 sql:
+ update test_1 set name=20161017141419 where id=8
+[2016-10-17 14:14:19]
+execute res:1 sql:
+ SELECt * FROM test_1 where id=8
