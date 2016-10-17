@@ -17,10 +17,15 @@
 #     print "current letter:" , letter
 
 
-list = ['php', 'Python', 'c++']
-print list
-print list[2]
+# list = ['php', 'Python', 'c++']
+# print list
+# print list[2]
 
-tup = ('english', 'chinese', 'math')
-print tup
-print tup[1:2]
+# tup = ('english', 'chinese', 'math')
+# print tup
+# print tup[1:2]
+#
+
+l = [1,2,3,4]
+for (k,v) in l:
+    print (k,v)
