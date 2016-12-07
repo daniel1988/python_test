@@ -25,7 +25,23 @@
 # print tup
 # print tup[1:2]
 #
+import demjson
+data = {}
 
-l = [1,2,3,4]
-for (k,v) in l:
-    print (k,v)
+dic = {'aaa':'11', 'bb':222}
+print dic
+for k,v in dic.items():
+    data[k] = v
+    print k,v
+
+print data
+
+json = demjson.encode(data)
+
+print 'json:', json
+
+dict_2 =  demjson.decode(json)
+print dict_2
+
+
+print dict(zip(dict_2.values(), dict_2.keys()))
